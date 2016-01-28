@@ -5,6 +5,7 @@
 This project is a open source solution for controlling a four panel relais with a Raspberry Pi, Apache and PHP 
 I hope i could help you, if you have any suggestions how to improve this script, just let me know.
 
+The default language is german.
 
 Now how this script is working:
 
@@ -44,6 +45,12 @@ This is how you initialize the GPIOs to use them with the RasPi:
      sudo chmod 666 /sys/class/gpio/gpio4/value                            
      sudo chmod 666 /sys/class/gpio/gpio17/value   
 
-Now you can test the jumpers with     echo "0" > /sys/class/gpio<number of GPIO>/value to turn the panel on and the same just with echo "1" to turn them back off
+Now you can test the jumpers with echo "0" > /sys/class/gpio<number of GPIO>/value to turn the panel on and the same just with echo "1" to turn them back off
 
 Next you have to copy the files you have donwloaded to the apache directory (/var/www/html/) and relaunch the apache service.
+
+This should be it. 
+
+
+Best regards 
+Alex, Lars and Raphael
