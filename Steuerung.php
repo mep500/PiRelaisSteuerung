@@ -1,6 +1,4 @@
 <!doctype html>
-<html lang="de">
-<head>
 
 	<link rel="stylesheet" href="https://arset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +32,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
             <li class="active"> <a href="Steuerung.php">Steuerung</a></li>
-            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
