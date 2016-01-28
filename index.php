@@ -51,35 +51,7 @@ echo "Hallo IP: ".$_SERVER['REMOTE_ADDR']."\n" ;
 echo "IP Proxy: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n";
 echo "Browser Info:".$_SERVER['HTTP_USER_AGENT'];
 echo "</pre>";
-
-echo "Mein name ist: ".$_GET['variable'].'<br />';
-echo "Mein Formular Name ist: ". $_POST['name']."<br />";
-echo "Lebenslauf: <br /><pre>".$_POST['lebenslauf']."</pre><br />";
-
-function D($a,$b,$c){
-        return pow($b,2)-4*$a*$c;
-}
-
-function x1x2($a,$b,$c){
-        return array(
-                round((-$b+pow(D($a,$b,$c),1/2))/(2*$a),2),
-                round((-$b-pow(D($a,$b,$c),1/2))/(2*$a),2)
-        );
-}
-
-
- ?>
-<hr />
-<form action="" method="POST" >
-<br />
-<select><option>test1</option><option>test2</option></select><br />
-<input type="checkbox" name="agb" /> check2 <br />
-<br />
-<strong>Passwort:</strong><br />
-<input type="password" name="pwd" /> <br />
-<hr />
-<input type="submit" /> <br />
-</form>
+?>
 
 
       </div>
