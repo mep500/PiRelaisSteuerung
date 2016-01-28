@@ -14,7 +14,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<title>FIRST TEST APP</title>
+<title>Impressum</title>
 </head>
 <body>
 
@@ -27,13 +27,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Raspberry Pi</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <l class="active"><a href="index.php">Home</a></li>
             <li><a href="Steuerung.php">Steuerung</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -43,59 +43,12 @@
 
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
-        <p class="lead">Raspberry Pi Project<br>Test-website</p>
+        <p> Impressum gemacht fuer das Raspberry Pi Projekt<br>28.01.16 </br></p>
+        <p>Gemacht im Betriebspraktikum an der Gsi-Helmholzzentrum 2016 </p> 
+            
+    </div> 
+  </div>
 
-<?php
-echo "<pre>";
-echo "Hallo IP: ".$_SERVER['REMOTE_ADDR']."\n" ;
-echo "IP Proxy: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n";
-echo "Browser Info:".$_SERVER['HTTP_USER_AGENT'];
-echo "</pre>";
-
-echo "Mein name ist: ".$_GET['variable'].'<br />';
-echo "Mein Formular Name ist: ". $_POST['name']."<br />";
-echo "Lebenslauf: <br /><pre>".$_POST['lebenslauf']."</pre><br />";
-
-function D($a,$b,$c){
-        return pow($b,2)-4*$a*$c;
-}
-
-function x1x2($a,$b,$c){
-        return array(
-                round((-$b+pow(D($a,$b,$c),1/2))/(2*$a),2),
-                round((-$b-pow(D($a,$b,$c),1/2))/(2*$a),2)
-        );
-}
-
-
- ?>
-<hr />
-<form action="" method="POST" >
-<br />
-<select><option>test1</option><option>test2</option></select><br />
-<input type="checkbox" name="agb" /> check2 <br />
-<br />
-<strong>Passwort:</strong><br />
-<input type="password" name="pwd" /> <br />
-<hr />
-<input type="submit" /> <br />
-</form>
-
-
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
-</html>
-
 
