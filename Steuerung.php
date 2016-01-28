@@ -33,6 +33,8 @@
             <li><a href="index.php">Home</a></li>
             <li class="active"> <a href="Steuerung.php">Steuerung</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
