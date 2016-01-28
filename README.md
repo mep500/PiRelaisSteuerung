@@ -27,12 +27,12 @@ This is how you initialize the GPIOs to use them with the RasPi:
 
 sudo adduser www-data gpio
 
-* sudo chmod 666 /sys/class/gpio/export 
-* sudo echo "2" > /sys/class/gpio/export 
-* sudo echo "3" > /sys/class/gpio/export 
-* sudo echo "4" > /sys/class/gpio/export 
-* sudo echo "17" > /sys/class/gpio/export 
-* sudo echo "out" > /sys/class/gpio/gpio2/direction 
+     sudo chmod 666 /sys/class/gpio/export 
+     sudo echo "2" > /sys/class/gpio/export 
+     sudo echo "3" > /sys/class/gpio/export 
+     sudo echo "4" > /sys/class/gpio/export 
+     sudo echo "17" > /sys/class/gpio/export 
+     sudo echo "out" > /sys/class/gpio/gpio2/direction 
 * sudo echo "out" > /sys/class/gpio/gpio3/direction 
 * sudo echo "out" > /sys/class/gpio/gpio4/direction 
 * sudo echo "out" > /sys/class/gpio/gpio17/direction 
