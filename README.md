@@ -11,13 +11,13 @@ Now how this script is working:
 
 
 First this is what you need:
-1 RaspberryPi (1 or 2, it's not nessecary wich one)
-Apache2
-PHP
-1 4 Panel relais
-Some jumper cables
-a network connection
-a brain
+* 1 RaspberryPi (1 or 2, it's not nessecary wich one)
+* Apache2
+* PHP5
+* 1 4 Panel relais
+* Some jumper cables
+* a network connection
+* a brain
 
 
 How the code is working:

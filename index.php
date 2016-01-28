@@ -33,7 +33,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
             <li><a href="Steuerung.php">Steuerung</a></li>
-            <li><a href="kontakt.html">Kontaktiere uns</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="impressum.html">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -43,8 +43,10 @@
     <div class="container" style="margin-top:50px;">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+        <h1>Raspberry Control Center</h1>
         <p class="lead">Raspberry Pi Project<br>Test-website</p>
+<img src="img/raspi_gpio.jpg" />
+	<p class="lead">Die belegung der GPIO's / The layout of the GPIO's</p>
 
 <?php
 echo "<pre>";
