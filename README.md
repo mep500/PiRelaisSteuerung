@@ -45,7 +45,7 @@ This is how you initialize the GPIOs to use them with the RasPi:
      sudo chmod 666 /sys/class/gpio/gpio4/value                            
      sudo chmod 666 /sys/class/gpio/gpio17/value   
 
-Now you can test the jumpers with echo "0" > /sys/class/gpio<number of GPIO>/value to turn the panel on and the same just with echo "1" to turn them back off
+Now you can test the jumpers with echo "0" > /sys/class/gpio<number of GPIO>/value to turn the panel on and the same just with echo "1" to turn them back off.
 
 Next you have to copy the files you have donwloaded to the apache directory (/var/www/html/) and relaunch the apache service.
 
