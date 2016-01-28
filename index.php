@@ -33,7 +33,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="Steuerung.php">Steuerung</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="kontakt.html">Kontaktiere uns</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
